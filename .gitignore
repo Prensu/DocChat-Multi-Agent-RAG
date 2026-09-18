@@ -1,0 +1,64 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# UV
+.uv/
+
+# ChromaDB data
+chroma_db/
+
+# Document cache and uploads
+cache/
+uploads/
+
+# Node dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js and build output
+.next/
+out/
+build/
+.vercel/
+coverage/
+
+# TypeScript and debug logs
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
